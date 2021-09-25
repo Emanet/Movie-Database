@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #212930;
+}
+
+main {
+  width: 100%;
+  max-width: 1470px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 3rem;
+  justify-items: center;
+}
+
+#movie_name {
+  text-align: center;
+  max-width: fit-content;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+}
+#movie_desc {
+  background: #6d8299;
+  position: relative;
+  bottom: 1.8rem;
+}
+#date {
+  left: 0;
+  top: 4rem;
+}
+
+img {
+  min-width: 300px;
+  max-height: 450px;
+  min-height: 450px;
+  max-width: 300px;
+}
+#navbar {
+  background-color: #ff424f;
+}
+form {
+  background-color: #ff424f;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 43rem;
+  margin: 2rem auto;
+}
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+#container {
+  position: relative;
+  max-width: 250px;
+  margin: auto;
+}
+#desc {
+  margin-top: -2rem;
+  position: relative;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+  position: absolute;
+  color: #d4d5d5;
+}
+
+#score {
+  top: -452px;
+  background-color: beige;
+  width: 60px;
+  height: 31px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.sidebar {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #191c1f;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+}
+
+.sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+.body-text {
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+a {
+  text-align: center;
+  padding: 2rem;
+  color: #d4d5d5;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  color: #d4d5d5;
+}
+#footer {
+  text-align: center;
+  color: #d4d5d5;
+  font-size: 1rem;
+  margin: auto;
+  padding: 2rem;
+}
+#footer a {
+  padding: 5px;
+}
